@@ -8,6 +8,10 @@
     "target_path": "kernel/zte/msm8996"
   },
   {
+    "repository": "proprietary_vendor_zte",
+    "target_path": "vendor_zte"
+  },
+  {
     "repository": "android_packages_apps_FlipFlap",
     "target_path": "packages/apps/FlipFlap"
   },
