@@ -190,10 +190,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     ZteDoze
 
-# Flip Cover App
-PRODUCT_PACKAGES += \
-    FlipFlap
-
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl \
@@ -298,7 +294,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.system.net.netd@1.0 \
     libandroid_net \
-    netutils-wrapper-1.0
+    netutils-wrapper-1.0 \
+    librmnetctl
 
 # NFC
 PRODUCT_PACKAGES += \
